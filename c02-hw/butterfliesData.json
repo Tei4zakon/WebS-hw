@@ -1,0 +1,8 @@
+[
+    {"family": "Hesperiidae", "knownAs": "Skippers", "worldwideSpecies": 3000},
+    {"family": "Lycaenidae", "knownAs": "Blues, Hairstreaks and Coppers.", "worldwideSpecies": 5000},
+    {"family": "Nymphalidae", "knownAs": "Brush-footed", "worldwideSpecies": 5000},
+    {"family": "Papilionidae", "knownAs": "Swallowtail", "worldwideSpecies": 600},
+    {"family": "Pieridae", "knownAs": "Yellows and Whites", "worldwideSpecies": 1000},
+    {"family": "Riodinidae", "knownAs": "Metalmarks", "worldwideSpecies": 1000}
+]

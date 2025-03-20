@@ -1,0 +1,9 @@
+[
+    {"name": "Pineapple", "growsOn": "ground", "climate": "tropical" },
+    {"name": "Kiwi", "growsOn": "vines", "climate": "temperate" },
+    {"name": "Apricot", "growsOn": "tree", "climate": "temperate" },
+    {"name": "Strawberry", "growsOn": "ground", "climate": "temperate" },
+    {"name": "Orange", "growsOn": "tree", "climate": "tropical and subtropical" },
+    {"name": "Mango", "growsOn": "tree", "climate": "tropical" },
+    {"name": "Pear", "growsOn": "tree", "climate": "temperate and subtropical" }
+  ]
