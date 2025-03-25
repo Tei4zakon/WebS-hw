@@ -1,9 +1,9 @@
 const mongoose = require("mongoose");
 
 const butterfliesSchema = mongoose.Schema({
-    brand: String,
-    model: String,
-    year: Number,
+    family: String,
+    knownAs: String,
+    worldwideSpecies: Number,
 });
 
 const ButterflyModel = mongoose.model("Butterfly", butterfliesSchema, "butterflies");
