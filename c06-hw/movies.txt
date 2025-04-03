@@ -1,0 +1,37 @@
+
+"title": "The Brutalist"
+"director": "Brady Corbet"
+"releaseDate": 20.12.2024
+"genre": "historical drama"
+"oscars": 3
+"IMDbRating": 7.4
+
+"title":"Anora"
+"director":"Sean Baker"
+"releaseDate":"18.10.2024"
+"genre":"romance"
+"oscars": 5
+"IMDbRating": 7.5
+
+"title":"Conclave"
+"director":"Edward Berger"
+"releaseDate":"25.10.2024"
+"genre":"thriller"
+"oscars": 1
+"IMDbRating": 7.4
+
+
+"title":"Wicked"
+"director":"Jon M. Chu"
+"releaseDate":"22.11.2024"
+"genre":"musical/fantasy"
+"oscars": 2
+"IMDbRating": 7.5
+
+
+"title": "Dune: Part Two"
+"director": "Denis Villeneuve"
+"releaseDate": "28.02.2024"
+"genre": "sci-fi/adventure"
+"oscars": 2
+"IMDbRating": 8.5
