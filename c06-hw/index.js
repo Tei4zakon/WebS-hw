@@ -31,11 +31,11 @@ app.use(
 app.post("/auth/login", login);
 app.post("/auth/register", register);
 
-app.get("/movies", getAllBooks);
-app.get("/api/movies/author", getAllBooksForAuthor);
-app.post("/api/movies", createNewBook);
-app.put("/api/movies/:id", updateCurrentBook);
-app.delete("/api/movies/:id", removeCurrentBook);
+app.get("/movies", getAllMovies);
+app.get("/api/movies/author", getAllMoviesForAuthor);
+app.post("/api/movies", createNewMovie);
+app.put("/api/movies/:id", updateCurrentMovie);
+app.delete("/api/movies/:id", removeCurrentMovie);
 
 app.listen(getSection("development").port, () =>
   console.log(`Server is running on port ${getSection("development").port}`)
