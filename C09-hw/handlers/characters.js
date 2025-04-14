@@ -14,7 +14,7 @@ const {
   
   const getCharactersGender = async (req, res) => {
     try {
-      const charsGender = await getCharactersGender(
+      const charsGender = await getCharacterByGender(
         req.params.gender
       );
       return res.status(200).send(charsGender);
