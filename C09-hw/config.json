@@ -1,0 +1,14 @@
+{
+    "development": {
+        "port": 6060,
+        "MONGO_USERNAME": "",
+        "MONGO_PASSWORD": "",
+        "jwt_key": "my_jwt_secret"
+    },
+    "characters" : {
+        "port": 6060,
+        "api_key": "",
+        "cache_expiery": 10,
+        "API_URL": "https://rickandmortyapi.com/api/character"
+    }
+}
