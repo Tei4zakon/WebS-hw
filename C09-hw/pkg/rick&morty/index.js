@@ -2,7 +2,7 @@ const { getSection } = require("../config/configIndex");
 
 const CACHE = {};
 
-const getCharacter = async (name) => {
+const getCharacterName = async (name) => {
     let now = new Date().getTime() / 1000;
     console.log("CACHE", CACHE);
 
@@ -15,7 +15,7 @@ const getCharacter = async (name) => {
 
 const URL = `${
     getSection("characters").API_URL}
-    /?name=${name}=${getSection("characters")}`;
+    /?name=${name}`;
 
 try {
     const res = await fetch(URL);
@@ -48,6 +48,6 @@ const getCharacterByGender = async (gender) => {
 
 
       module.exports = {
-        getCharacter,
+        getCharacterName,
         getCharacterByGender,
-      }
+      };

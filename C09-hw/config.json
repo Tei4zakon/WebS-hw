@@ -1,8 +1,8 @@
 {
     "development": {
         "port": 6060,
-        "MONGO_USERNAME": "",
-        "MONGO_PASSWORD": "",
+        "MONGO_USERNAME": "teasmi",
+        "MONGO_PASSWORD": "IlinBistra6",
         "jwt_key": "my_jwt_secret"
     },
     "characters" : {
