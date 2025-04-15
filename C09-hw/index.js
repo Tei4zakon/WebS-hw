@@ -5,8 +5,8 @@ const { getCharacter, getCharactersGender } = require("./handlers/characters");
 
 const app = express();
 
-app.get("/api/character/name/:name", getCharacter); 
-app.get("/api/character/gender/ :gender", getCharactersGender);
+app.get("/api/character/:name", getCharacter); 
+app.get("/api/character/:gender", getCharactersGender);
 
 app.listen(getSection("characters").port, () => {
   console.log(`Server started at port ${getSection("characters").port}`);
