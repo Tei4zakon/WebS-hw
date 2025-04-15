@@ -14,8 +14,7 @@ const getCharacterName = async (name) => {
     };
 
 const URL = `${
-    getSection("characters").API_URL}
-    /character/?name=${name}`;
+    getSection("characters").API_URL}/?name=${name}`;
 
 try {
     const res = await fetch(URL);
@@ -33,8 +32,7 @@ try {
 
 const getCharacterByGender = async (gender) => {
     const URL = `${
-        getSection("characters").API_URL}
-        /character/?gender=${gender}`;
+        getSection("characters").API_URL}/?gender=${gender}`;
     
     try {
         const res = await fetch(URL);
